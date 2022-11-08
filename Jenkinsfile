@@ -20,6 +20,9 @@ pipeline {
             always {
                 echo 'One way or another, I have finished'
             }
+            success {
+                echo 'I succeeded!'
+            }
             unstable {
                 echo 'I am unstable :/'
             }
