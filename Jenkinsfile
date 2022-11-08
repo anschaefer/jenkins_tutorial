@@ -15,7 +15,8 @@ pipeline {
                 '''
             }
         }
-        post {
+    }
+    post {
             always {
                 echo 'One way or another, I have finished'
             }
@@ -29,5 +30,4 @@ pipeline {
                 echo 'Things were different before...'
             }
         }
-    }
 }
